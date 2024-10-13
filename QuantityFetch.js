@@ -27,4 +27,4 @@ const quantityFetch=async(humanInput)=>{
     console.log(humanOutput)
 }
 
-quantityFetch("100")
+quantityFetch("1850")
