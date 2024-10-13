@@ -2,7 +2,7 @@ const ethers = require('ethers');
 const {routerAddress,fromAddress,toAddress}=require("./AddressList");
 const {erc20ABI,routerABI}=require("./AbiInfo");
 
-const provider= new ethers.providers.JsonRpcProvider("https://bsc-dataseed1.binance.org/")
+const provider= new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/bsc/4b3bc3824576746830f7f8fa1d019852f6acc10bf54eecadae6a2611345ca13a")
 const routerInstance = new ethers.Contract(
     routerAddress,routerABI,provider
 )
